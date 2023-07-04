@@ -20,10 +20,10 @@ function App(){
 function SkillList(){
   return(
     <div className='skill-list'>
-      <Skill skill='3D Modeling' emoji='😎' color='orange' />
+      <Skill skill='photo editing' emoji='👶🏻' color='blue' />
       <Skill skill='Html' emoji='👶🏻' color='violet' />
-      <Skill skill='Css' emoji='👶🏻' color='red' />
-      <Skill skill='Python' emoji='🤡' color='lightgreen' />
+      <Skill skill='Css' emoji='👶🏻' color='pink' />
+      <Skill skill='Python' emoji='👶🏻' color='red' />
 
     </div>
 
@@ -44,10 +44,10 @@ function Skill(props){
 function Intro(){
   return(
     <div>
-      <h1>นายพงศ์ปณต แสงกล้า</h1>
+      <h1>นายเจษฎา ขุลี</h1>
       <p>
         นักศึกษาสาขาเทคโนโลยีสารสนเทศและการสื่อสาร คณะวิทยาศาสตร์ 
-        มหาวิทยาลัยอุบลราชธานี สนใจในการสร้างโมเดลสามมิติ และชื่นชอบเกี่ยวกับยานยนต์
+        มหาวิทยาลัยอุบลราชธานี สนใจในการตัดต่อรูปภาพ
       </p>
 
     </div>
@@ -56,7 +56,7 @@ function Intro(){
 }
 
 function Avatar() {
-  return <img className='avatar' src={require('./Buddy-Christ.jpg')} alt='My Avatar'></img>
+  return <img className='avatar' src={require('./boss.jpg')} alt='My Avatar'></img>
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
